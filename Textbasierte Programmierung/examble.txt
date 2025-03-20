@@ -1,0 +1,165 @@
+field at start:
+     |     |
+     |     |
+-----|-----|-----
+     |     |
+     |     |
+-----|-----|-----
+     |     |
+     |     |
+     
+blocked_boxes = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+player = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+computer = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+on_turn = PLAYER
+winner = IN_GAME
+case = ND
+game_stopped = 0
+
+
+
+player clicks OR
+
+field after player clicks OR:
+     |     | ||| 
+     |     | |||
+-----|-----|-----
+     |     |
+     |     |
+-----|-----|-----
+     |     |
+     |     |
+blocked_boxes = [0, 0, 1, 0, 0, 0, 0, 0, 0]
+player = [0, 0, 1, 0, 0, 0, 0, 0, 0]
+computer = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+on_turn = COMPUTER
+winner = IN_GAME
+case = CORNER
+game_stopped = 0
+
+
+
+computer answers with MM
+
+field after MM:
+     |     | |||
+     |     | |||
+-----|-----|-----
+     | --- |
+     | --- |
+-----|-----|-----
+     |     |
+     |     |
+blocked_boxes = [0, 0, 1, 0, 1, 0, 0, 0, 0]
+player = [0, 0, 1, 0, 0, 0, 0, 0, 0]
+computer = [0, 0, 0, 0, 1, 0, 0, 0, 0]
+on_turn = PLAYER
+winner = IN_GAME
+case = CORNER
+game_stopped = 0
+
+
+
+player clicks MR
+
+field after player clicks MR:
+     |     | |||
+     |     | |||
+-----|-----|-----
+     | --- | |||
+     | --- | |||
+-----|-----|-----
+     |     |
+     |     |
+blocked_boxes = [0, 0, 1, 0, 1, 1, 0, 0, 0]
+player = [0, 0, 1, 0, 0, 1, 0, 0, 0]
+computer = [0, 0, 0, 0, 1, 0, 0, 0, 0]
+on_turn = COMPUTER
+winner = IN_GAME
+case = CORNER
+game_stopped = 0
+
+
+
+computer answers with UR
+
+field after UR:
+     |     | |||
+     |     | |||
+-----|-----|-----
+     | --- | |||
+     | --- | |||
+-----|-----|-----
+     |     | ---
+     |     | ---
+blocked_boxes = [0, 0, 1, 0, 1, 1, 0, 0, 1]
+player = [0, 0, 1, 0, 0, 1, 0, 0, 0]
+computer = [0, 0, 0, 0, 1, 0, 0, 0, 1]
+on_turn = PLAYER
+winner = IN_GAME
+case = CORNER
+game_stopped = 0
+
+
+
+player clicks UM
+
+field after player clicks UR:
+     |     | |||
+     |     | |||
+-----|-----|-----
+     | --- | |||
+     | --- | |||
+-----|-----|-----
+     | ||| | ---
+     | ||| | ---
+blocked_boxes = [0, 0, 1, 0, 1, 1, 0, 1, 1]
+player = [0, 0, 1, 0, 0, 1, 0, 1, 0]
+computer = [0, 0, 0, 0, 1, 0, 0, 0, 1]
+on_turn = COMPUTER
+winner = IN_GAME
+case = CORNER
+game_stopped = 0
+
+
+
+computer answers with OL
+
+field after OL:
+ --- |     | |||
+ --- |     | |||
+-----|-----|-----
+     | --- | |||
+     | --- | |||
+-----|-----|-----
+     | ||| | ---
+     | ||| | ---
+blocked_boxes = [1, 0, 1, 0, 1, 1, 0, 1, 1]
+player = [0, 0, 1, 0, 0, 1, 0, 1, 0]
+computer = [1, 0, 0, 0, 1, 0, 0, 0, 1]
+on_turn = PLAYER
+winner = COMPUTER_WINS
+case = CORNER
+game_stopped = 1
+
+
+
+restart button is clicked
+
+field after restart button:
+     |     |
+     |     |
+-----|-----|-----
+     |     |
+     |     |
+-----|-----|-----
+     |     |
+     |     |
+     
+blocked_boxes = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+player = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+computer = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+on_turn = PLAYER
+winner = IN_GAME
+case = ND
+game_stopped = 0
