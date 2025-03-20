@@ -1,4 +1,4 @@
-Die Unterrichtsmaterialien wurden im Zuge einer Masterarbeit erstellt. Sie sind frei benutzbar und dürfen nach Belieben angepasst werden.
+Die folgenden Unterrichtsmaterialien wurden im Kontext einer Masterarbeit konzipiert und entwickelt, um eine fundierte und praxisorientierte Grundlage für den Programmierunterricht zu bieten. Sie basieren auf umfangreichen theoretischen Überlegungen und praktischen Anwendungen, die im Verlauf der Arbeit erarbeitet wurden, und sollen Lehrkräften dabei helfen, den Tic-Tac-Toe-Algorithmus auf unterschiedliche didaktische Weisen zu vermitteln. Die Materialien dürfen nach Belieben verwendet, modifiziert und an individuelle Unterrichtskonzepte angepasst werden, um eine flexible und praxisnahe Integration in den Programmierunterricht zu ermöglichen.
 
 # Titel: Konzeption und Gestaltung von Lehr- und Lernmaterialien für einen strukturierten Programmierunterricht in der Sekundarstufe am Beispiel Tic-Tac-Toe
 <p> Autor: Daniel Wimmer, BEd
